@@ -1,6 +1,12 @@
 # simple-conky
 
-A simple conky configuration is order to use with Conky and Conky Manager 2.
+A simple conky configuration for using in Conky and Conky Manager 2.
+
+![Simple Conky CPU/RAM](simple/simple-cpu.png)
+
+![Simple Conky Disk usage](simple/simple-disk.png)
+
+![Simple Conky Net Monitor](simple/simple-net.png)
 
 
 ## How to install
