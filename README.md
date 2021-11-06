@@ -2,11 +2,11 @@
 
 A simple conky configuration for using in Conky and Conky Manager 2.
 
-![Simple Conky CPU/RAM](simple/simple-cpu.png)
+![Simple Conky CPU/RAM](Simple/simple-cpu.png)
 
-![Simple Conky Disk usage](simple/simple-disk.png)
+![Simple Conky Disk usage](Simple/simple-disk.png)
 
-![Simple Conky Net Monitor](simple/simple-net.png)
+![Simple Conky Net Monitor](Simple/simple-net.png)
 
 
 ## How to install
