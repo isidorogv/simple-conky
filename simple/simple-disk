@@ -1,0 +1,52 @@
+--[[
+    http://conky.sourceforge.net/docs.html
+    http://conky.sourceforge.net/variables.html
+    https://linuxconfig.org/ubuntu-20-04-system-monitoring-with-conky-widgets
+    https://github.com/brndnmtthws/conky/wiki
+    https://cairographics.org/manual/
+]]
+conky.config={
+    alignment='top_left',
+    background=false,
+    color1='A9A9A9',
+    color2='616161',
+    color3='313131',
+    cpu_avg_samples=4,
+    default_color='FFFFFF',
+    default_outline_color='black',
+    default_shade_color='333333',
+    double_buffer=true,
+    draw_borders=false,
+    draw_graph_borders=false,
+    draw_outline=false,
+    draw_shades=false,
+    font='Sans:style=medium:pixelsize=10',
+    gap_x=135,
+    gap_y=-10,
+    maximum_width=150,
+    minimum_height=10,
+    minimum_width=150,
+    net_avg_samples=2,
+    no_buffers=true,
+    override_utf8_locale=true,
+    own_window_argb_value=0,
+    own_window_argb_visual=true,
+    own_window_colour='000000',
+    own_window_hints='undecorated,below,sticky,skip_taskbar,skip_pager',
+    own_window_transparent=true,
+    own_window_type='desktop',
+    own_window=true,
+    text_buffer_size=2048,
+    total_run_times=0,
+    update_interval=3,
+    uppercase=false,
+    use_xft=true,
+    xftalpha=.1,
+}
+
+conky.text=[[
+
+${color1}sda ${alignr}${fs_free /media/isidoro/DATOS/} / ${fs_used /media/isidoro/DATOS/} (${fs_used_perc /media/isidoro/DATOS/}%)
+${color1}sdb ${alignr}${fs_free /} / ${fs_used /} (${fs_used_perc /}%)
+
+]]
