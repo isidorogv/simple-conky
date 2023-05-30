@@ -46,11 +46,11 @@ conky.config={
 
 conky.text=[[
 
-${if_match "${addr enp0s25}"!="No Address"}
-    ${color1}Dw ${color red}${alignr}${downspeedf enp0s25}k/s (${totaldown enp0s25})
-    ${color1}Up ${color green}${alignr}${upspeedf enp0s25}k/s (${totalup enp0s25})
-${else}${if_match "${addr wlp2s0}"!="No Address"}
-    ${color1}Dw ${color red}${alignr}${downspeedf wlp2s0}k/s (${totaldown wlp2s0})
-    ${color1}Up ${color green}${alignr}${upspeedf wlp2s0}k/s (${totalup wlp2s0})${endif}
+${if_match "${addr wlp2s0}"!="No Address"}${color1}Dw ${color red}${alignr}${downspeedf wlp2s0}k/s (${totaldown wlp2s0})
+${color1}Up ${color green}${alignr}${upspeedf wlp2s0}k/s (${totalup wlp2s0})
+${else}
+${if_match "${addr enp0s25}"!="No Address"}${color1}Dw ${color red}${alignr}${downspeedf enp0s25}k/s (${totaldown enp0s25})
+${color1}Up ${color green}${alignr}${upspeedf enp0s25}k/s (${totalup enp0s25})
+${endif}
 
 ]]
